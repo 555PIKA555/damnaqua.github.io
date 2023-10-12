@@ -10,7 +10,7 @@
 // Leave it blank to use text instead
 // (Put the files in the images folder)
 // (You can also use external URL)
-// var l_serverImage = "ironcladbanner.jpg";
+var l_serverImage = "";
 
 // Center logo?
 // 'true' or 'false'
@@ -18,16 +18,16 @@ var l_centerLogo = false;
 
 // Display current map and gamemode?
 // 'true' or 'false'
-var l_displayMapGamemode = true;
+var l_displayMapGamemode = false;
 
 // Custom server name configuration
 // Leave it blank for automatic server name
-// var l_serverName = "IRON CLAD";
+var l_serverName = "";
 
 // Use a video for the background?
 // Otherwise it will use images
 // 'true' or 'false'
-var l_bgVideo = true;
+var l_bgVideo = false;
 
 // Default available videos:
 // "aurora.webm"
@@ -55,7 +55,7 @@ var l_bgVideo = true;
 // Just make sure they are using webm VP8 format 
 // (Place the videos in the backgrounds/videos folder)
 // (You can also use external URL)
-var l_background = "ironclad.webm";
+var l_background = "bluefall.webm";
 
 // (Image-background only)
 // Enable map-based background image?
@@ -72,18 +72,20 @@ var l_bgImageMapBased = false;
 // (Place the files in the backgrounds/images folder)
 // (You can also use external URL)
 var l_bgImages = [
-	"backgrounds/images/screenone.png"
+    "aqua_banner.jpg",
+	
 ];
+
 
 // (Image-background only)
 // Random background images order?
 // 'true' or 'false'
-var l_bgImagesRandom = true;
+var l_bgImagesRandom = false;
 
 // (Image-background only)
 // Delay between background images changes
 // in milliseconds
-var l_bgImageDuration = 5000;
+var l_bgImageDuration = 7000;
 
 // (Image-background only)
 // Image background fade velocity
@@ -92,26 +94,27 @@ var l_bgImageFadeVelocity = 2000;
 
 // Enable background overlay?
 // 'true' or 'false'
-var l_bgOverlay = true;
+var l_bgOverlay = false;
 
 // Background darkening amount
 // 0 for none (0%), 100 for pitch black (100%)
-var l_bgDarkening = 50;
+var l_bgDarkening = 20;
 
 // Play music during the loading screen?
 // 'true' or 'false'
-var l_music = true;
+var l_music = false;
 
 // Display current music name?
 // 'true' or 'false'
-var l_musicDisplay = true;
+var l_musicDisplay = false;
 
 // Music playlist
 // Add as many youtube ids/urls or ogg files you want
 // (Place the ogg files in the music folder)
 // (You can also use external URL for the ogg files)
 var l_musicPlaylist = [
-	{ogg: "dutyhonor.ogg", name: "Duty & Honor"},
+    {ogg: "Most Epic Music Ever Everything Ends Here.ogg", name: "Everything Ends Here - Blue Lion Music"},
+	{ogg: "villian.ogg", name: "Unknown"},
 ];
 
 // Random music order?
@@ -120,17 +123,17 @@ var l_musicRandom = false;
 
 // Music volume
 // Choose a value between 0 (quietest) and 100 (loudest)
-var l_musicVolume = 10;
+var l_musicVolume = 27;
 
 // Enable custom messages?
 // 'true' or 'false'
-var l_messagesEnabled = true;
+var l_messagesEnabled = false;
 
 // Enter your custom messages below
 var l_messages = [
-	"Quests & Storyline",
-	"Blood, Glory & Taxes",
-	"There is no bullshit here, just pure medieval.",
+	"Welcome to Universal Heroes RP",
+	"Please allow addons to download as it is well worth the wait! You will be in shortly!",
+	"Upon loading in please be sure to read over rules in motd.",
 ];
 
 // Random message order?
@@ -148,7 +151,7 @@ var l_messagesFade = 1000;
 // Show errors inside Garry's Mod?
 // Can be useful for finding errors
 // 'true' or 'false'
-var l_showErrorsIngame = false;
+var l_showErrorsIngame = true;
 
 //==============================================================
 //========================== WARNING ===========================
